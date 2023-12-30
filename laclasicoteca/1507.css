@@ -1,0 +1,204 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    padding-top: 300px;
+    }
+
+html, body {
+    height: 100%;
+}
+
+.header {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #EDC772;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+    z-index: 100;
+}
+
+
+.nombreweb {
+    text-align: center;
+
+}
+
+.nombreweb h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 65px;
+    padding: 0;
+}
+
+.logo img {
+    width: 165px;
+    height: auto;
+}
+
+.logo {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.logo:hover .tooltip {
+    display: inline-block
+}
+
+.textocabecera p{
+    text-align: justify;
+    font-family: "Baskerville", sans-serif;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 45%;
+    top: -50%;
+}
+
+input {
+    outline: none;
+    box-sizing: border-box;
+    height: 20px;
+    width: 100px;
+    padding: 0 20px;
+    color: black;
+    border-radius: 50px;
+    border-color: #2d2d2d;
+    font-size: 12px;
+    font-family: "Baskerville", sans-serif;
+    border: none;
+    transition: all .7s ease;
+}
+
+.menu {
+    font-family: sans-serif;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+    margin-top: 50px;
+}
+
+.main-content {
+    margin-top: 70px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu-item a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative;
+    font-weight: bold;
+}
+
+
+
+header a:hover{
+    color: #EDC772;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 3000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.imagengrecia, .imagenroma {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.imagengrecia img, .imagenroma img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ultimas-publicaciones {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.ultimas-publicaciones h2 {
+    text-align: center;
+    margin-top: 20px 0;
+}
+
+
+.publicacionesquilo video {
+    padding: 10px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.publicacionesquilo h3 {
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.Redes-sociales {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Redes-sociales a {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.Redes-sociales i {
+    font-size: 30px;
+    color: #EDC772;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
